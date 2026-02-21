@@ -8,7 +8,7 @@ tasks = []
 
 # Implement add_task function
 def add_task(title, description, due_date):
-    validate_task_description(title)
+    validate_task_title(title)
     validate_task_description(description)
     validate_due_date(due_date)
     
